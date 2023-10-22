@@ -1,0 +1,103 @@
+body{
+    margin: 0;
+    height: 100vh;
+}
+
+
+.slider{
+    /* border: 1px solid red; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+}
+
+.slider_container{
+    /* border: 2px solid green; */
+    /* block-size: 100px; */
+    display: block;
+    overflow: hidden;
+    scroll-behavior: smooth;
+    white-space: nowrap;
+}
+
+
+.img {
+    /* border: 1px solid yellow; */
+    margin: 0;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;   
+}
+
+.slider_bullet_list {
+    text-align: center;
+    margin-top: 16px;
+    margin-bottom: 16px;  
+    position: absolute;
+    bottom: 10px;
+}
+
+.slider_bullet{
+    display: inline-block;
+    inline-size: 15px;
+    block-size: 15px;
+    background-color: rgba(0, 0, 0);
+    border-radius: 50%;
+
+}
+
+.slider_bullet:hover {
+    background-color: rgba(41, 41, 41, 0.171);
+  }
+  
+.menu{
+    width: 100%;
+    height: 645px;
+    display: flex;
+    background-image: url(../images/chinese.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-flow: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu_food img{
+    font-size:20px;
+    border: 1px solid #000;
+    margin: 1rem;
+    width:200px;
+    height:400px;
+  }
+
+.dishes{
+    width: 100%;
+    height: 645px;
+    background-image: url(../images/flower.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+footer {
+    background-color: rgba(33, 36, 41, 1);
+    height: 174px;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+footer p {
+    color: rgba(255, 255, 255, 1);
+    font-size: 32px;
+  }
+
+.social-media img{
+    height: 24px;
+    width: 24px;
+}
+
+
