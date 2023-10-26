@@ -1,8 +1,49 @@
+
 body{
     margin: 0;
     height: 100vh;
 }
 
+
+/* .summary{
+    box-sizing: border-box;
+    display: flex;
+    width: 100%;
+   
+}
+
+.menu_list{
+    display:flex;
+    width: 100%;
+    list-style: none;
+    padding-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;  
+}
+
+.menu_list{
+    display: flex;
+     background: #fff;
+     justify-content: center;
+}
+
+.menu_item{
+    flex:1;
+}
+.menu_item:hover{
+    background: rgb(255, 96, 96);
+  }
+
+.menu_link{
+    text-decoration: none;
+    color: #000;
+  }
+
+.menu_link{
+      display: block;
+      padding: .75em 1em;
+      text-align: center;
+    } */
 
 .slider{
     /* border: 1px solid red; */
@@ -51,34 +92,79 @@ body{
 .slider_bullet:hover {
     background-color: rgba(41, 41, 41, 0.171);
   }
-  
+
+h1{
+
+   display: inline-block;
+   width: 100%;
+   height: auto;
+   margin:5px, 0,0, 0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+   
+}
+ 
+
+/* .logo{
+    width: 100px;
+    height: 100%;
+} */
+
 .menu{
     width: 100%;
-    height: 645px;
+    /* height: 645px; */
+    /* height: 100%; */
     display: flex;
-    background-image: url(../images/chinese.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url(../images/flower.png);
+    background-repeat: repeat;
+    /* background-size: cover; */
+    background-position: center;
     flex-flow: wrap;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
+    /* align-items: center; */
 }
 
-.menu_food img{
+.food img{
     font-size:20px;
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
     margin: 1rem;
-    width:200px;
-    height:400px;
+    width:300px;
+    height:350px;
   }
 
 .dishes{
     width: 100%;
-    height: 645px;
-    background-image: url(../images/flower.png);
+    /* height: 645px; */
+    /* height: 100%; */
+    display: flex;
+    flex-flow: wrap;
+    background-image: url(../images/chinese.png);
     background-repeat: no-repeat;
     background-size: cover;
+    justify-content:space-around;
+  
 }
+
+.video_section{
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+
+.restaurant{
+    width: 50%;
+    height: auto;
+}
+
+.video {
+    margin: 0;
+    /* border: 3px solid blue; */
+    display: inline-block;
+    width: 50%;
+    height: auto;
+    aspect-ratio:  16/9;
+  }
+
 
 footer {
     background-color: rgba(33, 36, 41, 1);
@@ -90,9 +176,21 @@ footer {
     align-items: center;
     width: 100%;
   }
-footer p {
+.brand {
     color: rgba(255, 255, 255, 1);
     font-size: 32px;
+  }
+
+.email a{
+    color: #eee;
+}
+
+.email a:hover {
+color:purple;
+}
+
+.email a:visited {
+    color: blue;
   }
 
 .social-media img{
@@ -101,3 +199,5 @@ footer p {
 }
 
 
+
+ 
