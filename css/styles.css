@@ -198,6 +198,55 @@ color:purple;
     width: 24px;
 }
 
+a{
+    text-decoration: none;
+    color:white;
+}
 
+header{
+    display:flex;
+    position:absolute;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    transition: 0.7s ;
+    padding: 0.5%;
+    z-index: 10;
+    background: rgba(5, 7, 12, 0.20);
 
- 
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+}
+
+.logo img{
+    height: 70px;
+    margin-right: 3px;
+}
+
+.logo-nombre{
+    color:white;
+
+}
+
+nav a{
+    font-weight: 700;
+    padding-right: 40px;
+}
+
+nav a:hover{
+    color:white;
+
+}
+
+@media (max-width:700px){
+    header{
+        flex-direction: column;
+    }
+
+    nav{
+        padding: 10px 0px;
+    }
+}
